@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   icons: [
     {
       rel: "icon",
-      url: "/favicon.ico",
+      url: "eis/favicon.ico",
     },
     {
       rel: "apple-touch-icon",
-      url: "/apple-touch-icon.png",
+      url: "eis/apple-touch-icon.png",
     },
   ],
 };
