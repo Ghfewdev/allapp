@@ -1,15 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-// import logo from '../public/logo.png'
-import logo1 from '../public/health.png'
-import logo2 from '../public/data.png'
-import logo3 from '../public/budget.png'
-import logo4 from '../public/search_0.png'
-import logo5 from '../public/bhz.png'
-import logo6 from '../public/run.png'
-import logo7 from '../public/map.png'
-import logo8 from '../public/policy.png'
+
 
 export default function Home() {
 
@@ -29,8 +21,8 @@ export default function Home() {
       <br />
       {/* <p className="mb-6">ระบบของสำนักการแพทย์</p> */}
       <div className='grid grid-cols-2 lg:grid-cols-3'>
-        
-<a
+
+        <a
           href={"https://health2.bangkok.go.th/"}
           target="_blank" rel="noopener noreferrer"
           className="px-6 py-2"
@@ -38,9 +30,11 @@ export default function Home() {
 
           <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
             <div className='flex flex-col items-center justify-center pb-4'>
+
               <Image
-                alt='logo1'
-                src={logo1}
+                src="/eis/health.png"
+                alt="logo1"
+                width={50}
                 height={50}
               />
 
@@ -52,7 +46,7 @@ export default function Home() {
           </div>
         </a>
 
-<a
+        <a
           href={"https://www.appsheet.com/start/5a5fea49-fcf1-4247-890a-2b1c1a5c8161"}
           target="_blank" rel="noopener noreferrer"
           className="px-6 py-2"
@@ -61,13 +55,15 @@ export default function Home() {
           <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
             <div className='flex flex-col items-center justify-center'>
               <div className='flex flex-col items-center justify-center pb-4'>
-              <Image
-                alt='logo6'
-                src={logo6}
-                height={50}
-              />
 
-            </div>
+                <Image
+                  src="/eis/run.png"
+                  alt="logo2"
+                  width={50}
+                  height={50}
+                />
+
+              </div>
 
             </div>
 
@@ -78,7 +74,7 @@ export default function Home() {
           </div>
         </a>
 
-        
+
 
         <a
           href={"https://healthmap.bangkok.go.th/"}
@@ -89,13 +85,16 @@ export default function Home() {
           <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
             <div className='flex flex-col items-center justify-center'>
               <div className='flex flex-col items-center justify-center pb-4'>
-              <Image
-                alt='logo7'
-                src={logo7}
-                height={50}
-              />
 
-            </div>
+
+                <Image
+                  src="/eis/map.png"
+                  alt="logo3"
+                  width={50}
+                  height={50}
+                />
+
+              </div>
 
             </div>
 
@@ -115,13 +114,15 @@ export default function Home() {
           <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
             <div className='flex flex-col items-center justify-center'>
               <div className='flex flex-col items-center justify-center pb-4'>
-              <Image
-                alt='logo8'
-                src={logo8}
-                height={50}
-              />
 
-            </div>
+                <Image
+                  src="/eis/policy.png"
+                  alt="logo4"
+                  width={50}
+                  height={50}
+                />
+
+              </div>
 
             </div>
 
@@ -140,9 +141,11 @@ export default function Home() {
           <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
 
             <div className='flex flex-col items-center justify-center pl-2 pb-4'>
+
               <Image
-                alt='logo4'
-                src={logo4}
+                src="/eis/search_0.png"
+                alt="logo5"
+                width={50}
                 height={50}
               />
 
@@ -163,9 +166,11 @@ export default function Home() {
           <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
 
             <div className='flex flex-col items-center justify-center pb-4'>
+
               <Image
-                alt='logo2'
-                src={logo2}
+                src="/eis/data.png"
+                alt="logo6"
+                width={50}
                 height={50}
               />
 
@@ -179,7 +184,7 @@ export default function Home() {
         </a>
 
 
-       
+
         <a
           href={"http://msdmec.go.th/financial/"}
           target="_blank" rel="noopener noreferrer"
@@ -188,9 +193,11 @@ export default function Home() {
 
           <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
             <div className='flex flex-col items-center justify-center pb-4'>
+
               <Image
-                alt='logo3'
-                src={logo3}
+                src="/eis/budget.png"
+                alt="logo7"
+                width={50}
                 height={50}
               />
 
@@ -202,10 +209,6 @@ export default function Home() {
           </div>
         </a>
 
-        
-
-        
-
         <a
           href={"http://msdmec.go.th/bhz/admin.php"}
           target="_blank" rel="noopener noreferrer"
@@ -214,9 +217,11 @@ export default function Home() {
 
           <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
             <div className='flex flex-col items-center justify-center pb-4'>
+
               <Image
-                alt='logo5'
-                src={logo5}
+                src="/eis/bhz.png"
+                alt="logo8"
+                width={50}
                 height={50}
               />
 
@@ -229,7 +234,7 @@ export default function Home() {
           </div>
         </a>
 
-        
+
 
       </div>
 

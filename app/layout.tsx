@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import { myFont } from './fonts'
+import "@/app/globals.css";
+import { myFont } from '@/app/fonts'
 
 export const metadata: Metadata = {
   title: "EIS MSD",
