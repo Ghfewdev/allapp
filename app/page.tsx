@@ -1,9 +1,7 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { useRouter } from 'next/navigation'
 import Image from 'next/image'
-import logo from '../public/logo.png'
+// import logo from '../public/logo.png'
 import logo1 from '../public/health.png'
 import logo2 from '../public/data.png'
 import logo3 from '../public/budget.png'
@@ -18,16 +16,16 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 text-gray-800">
       {/* <h1 className="text-4xl font-bold mb-4">{user?.username} 🎉</h1> */}
-      <Image
+      {/* <Image
         alt='logo'
         src={logo}
         height={180}
-        priority
-      />
+      /> */}
       <div className='p-3'>
         <h1 className="text-4xl font-bold">EIS MSD</h1>
       </div>
 
+      <br />
       <br />
       {/* <p className="mb-6">ระบบของสำนักการแพทย์</p> */}
       <div className='grid grid-cols-2 lg:grid-cols-3'>
@@ -44,7 +42,6 @@ export default function Home() {
                 alt='logo1'
                 src={logo1}
                 height={50}
-                priority
               />
 
             </div>
@@ -68,7 +65,6 @@ export default function Home() {
                 alt='logo6'
                 src={logo6}
                 height={50}
-                priority
               />
 
             </div>
@@ -97,7 +93,6 @@ export default function Home() {
                 alt='logo7'
                 src={logo7}
                 height={50}
-                priority
               />
 
             </div>
@@ -124,7 +119,6 @@ export default function Home() {
                 alt='logo8'
                 src={logo8}
                 height={50}
-                priority
               />
 
             </div>
@@ -150,7 +144,6 @@ export default function Home() {
                 alt='logo4'
                 src={logo4}
                 height={50}
-                priority
               />
 
             </div>
@@ -174,7 +167,6 @@ export default function Home() {
                 alt='logo2'
                 src={logo2}
                 height={50}
-                priority
               />
 
             </div>
@@ -200,7 +192,6 @@ export default function Home() {
                 alt='logo3'
                 src={logo3}
                 height={50}
-                priority
               />
 
             </div>
@@ -227,7 +218,6 @@ export default function Home() {
                 alt='logo5'
                 src={logo5}
                 height={50}
-                priority
               />
 
             </div>
