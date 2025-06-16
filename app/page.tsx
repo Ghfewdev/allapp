@@ -14,7 +14,7 @@ export default function Home() {
         height={180}
       /> */}
       <div className='p-3 mt-10'>
-        <h1 className="text-4xl font-bold">EIS MSD</h1>
+        <p className="text-5xl font-bold text-shadow-lg/30 text-shadow-current">EIS MSD</p>
       </div>
 
       <br />
