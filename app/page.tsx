@@ -150,7 +150,7 @@ export default function Home() {
                 height={120}
               />
 
-              <h1 className="text-lg font-bold mt-2">ความพึ่งพอใจ</h1>
+              <h1 className="text-lg font-bold mt-2">ความพึงพอใจ</h1>
 
             </div>
 
