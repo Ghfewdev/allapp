@@ -13,7 +13,7 @@ export default function Home() {
         src={logo}
         height={180}
       /> */}
-      <div className='p-3'>
+      <div className='p-3 mt-10'>
         <h1 className="text-4xl font-bold">EIS MSD</h1>
       </div>
 
@@ -28,21 +28,22 @@ export default function Home() {
           className="px-6 py-2"
         >
 
-          <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
+          <div className='grid grid-cols-1'>
             <div className='flex flex-col items-center justify-center pb-4'>
 
               <Image
                 src="/eis/health.png"
                 alt="logo1"
-                width={50}
-                height={50}
+                width={120}
+                height={120}
               />
 
+              <h1 className="text-lg font-bold mt-2">ตรวจสุขภาพ</h1>
+
             </div>
 
-            <div className='sm:sm:col-span-2 p-3 bg-[#92CA68] text-white rounded-4xl hover:bg-blue-300 text-center'>
-              ตรวจสุขภาพ
-            </div>
+
+
           </div>
         </a>
 
@@ -52,25 +53,25 @@ export default function Home() {
           className="px-6 py-2"
         >
 
-          <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
+          <div className='grid grid-cols-1'>
             <div className='flex flex-col items-center justify-center'>
               <div className='flex flex-col items-center justify-center pb-4'>
 
                 <Image
                   src="/eis/run.png"
                   alt="logo2"
-                  width={50}
-                  height={50}
+                  width={120}
+                  height={120}
                 />
+
+                <h1 className="text-lg font-bold mt-2">วิ่งล้อมเมือง</h1>
 
               </div>
 
             </div>
 
 
-            <div className='sm:sm:col-span-2 p-3 bg-[#92CA68] text-white rounded-4xl hover:bg-blue-300 text-center'>
-              วิ่งล้อมเมือง
-            </div>
+
           </div>
         </a>
 
@@ -82,7 +83,7 @@ export default function Home() {
           className="px-6 py-2"
         >
 
-          <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
+          <div className='grid grid-cols-1'>
             <div className='flex flex-col items-center justify-center'>
               <div className='flex flex-col items-center justify-center pb-4'>
 
@@ -90,18 +91,18 @@ export default function Home() {
                 <Image
                   src="/eis/map.png"
                   alt="logo3"
-                  width={50}
-                  height={50}
+                  width={120}
+                  height={120}
                 />
+
+                <h1 className="text-lg font-bold mt-2">Health Map</h1>
 
               </div>
 
             </div>
 
 
-            <div className='sm:sm:col-span-2 p-3 bg-[#92CA68] text-white rounded-4xl hover:bg-blue-300 text-center'>
-              Bangkok Health Map
-            </div>
+
           </div>
         </a>
 
@@ -111,25 +112,25 @@ export default function Home() {
           className="px-6 py-2"
         >
 
-          <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
+          <div className='grid grid-cols-1'>
             <div className='flex flex-col items-center justify-center'>
               <div className='flex flex-col items-center justify-center pb-4'>
 
                 <Image
                   src="/eis/policy.png"
                   alt="logo4"
-                  width={50}
-                  height={50}
+                  width={120}
+                  height={120}
                 />
+
+                <h1 className="text-lg font-bold mt-2">Policy Tracking</h1>
 
               </div>
 
             </div>
 
 
-            <div className='sm:sm:col-span-2 p-3 bg-[#92CA68] text-white rounded-4xl hover:bg-blue-300 text-center'>
-              BMA Policy Tracking
-            </div>
+
           </div>
         </a>
 
@@ -138,22 +139,46 @@ export default function Home() {
           target="_blank" rel="noopener noreferrer"
           className="px-6 py-2"
         >
-          <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
+          <div className='grid grid-cols-1'>
 
             <div className='flex flex-col items-center justify-center pl-2 pb-4'>
 
               <Image
-                src="/eis/search_0.png"
+                src="/eis/good.png"
                 alt="logo5"
-                width={50}
-                height={50}
+                width={120}
+                height={120}
               />
 
+              <h1 className="text-lg font-bold mt-2">ความพึ่งพอใจ</h1>
+
             </div>
 
-            <div className='sm:sm:col-span-2 p-3 bg-[#92CA68] text-white rounded-4xl hover:bg-blue-300 text-center'>
-              ความพึงพอใจ นอก/ใน
+
+
+          </div>
+        </a>
+
+        <a
+          href={"https://app.powerbi.com/view?r=eyJrIjoiZmZjZGU5MjYtNjI1NS00YjY2LWIwOGEtNmIyOWUyYTIzZjcyIiwidCI6ImRjMWI3ODc0LTE1ZTItNGQzYy05YWRmLWVhNDkxZTM2NmRhZSIsImMiOjEwfQ%3D%3D"}
+          target="_blank" rel="noopener noreferrer"
+          className="px-6 py-2 "
+        >
+
+          <div className='grid grid-cols-1'>
+            <div className='flex flex-col items-center justify-center pb-4'>
+
+              <Image
+                src="/eis/smart.png"
+                alt="logo8"
+                width={120}
+                height={120}
+              />
+
+              <h1 className="text-lg font-bold mt-2">Smart IPD</h1>
+
             </div>
+
 
           </div>
         </a>
@@ -163,22 +188,22 @@ export default function Home() {
           target="_blank" rel="noopener noreferrer"
           className="px-6 py-2"
         >
-          <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
+          <div className='grid grid-cols-1'>
 
             <div className='flex flex-col items-center justify-center pb-4'>
 
               <Image
                 src="/eis/data.png"
                 alt="logo6"
-                width={50}
-                height={50}
+                width={120}
+                height={120}
               />
 
+              <h1 className="text-lg font-bold mt-2">Data Center</h1>
+
             </div>
 
-            <div className='sm:sm:col-span-2 p-3 bg-[#92CA68] text-white rounded-4xl hover:bg-blue-300 text-center'>
-              Data Center
-            </div>
+
 
           </div>
         </a>
@@ -191,21 +216,21 @@ export default function Home() {
           className="px-6 py-2"
         >
 
-          <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
+          <div className='grid grid-cols-1'>
             <div className='flex flex-col items-center justify-center pb-4'>
 
               <Image
                 src="/eis/budget.png"
                 alt="logo7"
-                width={50}
-                height={50}
+                width={120}
+                height={120}
               />
 
+              <h1 className="text-lg font-bold mt-2">งบประมาณ</h1>
+
             </div>
 
-            <div className='sm:sm:col-span-2 p-3 bg-[#92CA68] text-white rounded-4xl hover:bg-blue-300 text-center'>
-              งบประมาณ
-            </div>
+
           </div>
         </a>
 
@@ -215,24 +240,25 @@ export default function Home() {
           className="px-6 py-2 "
         >
 
-          <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
+          <div className='grid grid-cols-1'>
             <div className='flex flex-col items-center justify-center pb-4'>
 
               <Image
                 src="/eis/bhz.png"
                 alt="logo8"
-                width={50}
-                height={50}
+                width={120}
+                height={120}
               />
 
+              <h1 className="text-lg font-bold mt-2">BHZ</h1>
+
             </div>
 
 
-            <div className='sm:sm:col-span-2 p-3 bg-[#92CA68] text-white rounded-4xl hover:bg-blue-300 text-center'>
-              BHZ
-            </div>
+
           </div>
         </a>
+
 
 
 
