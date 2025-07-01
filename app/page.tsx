@@ -260,6 +260,33 @@ export default function Home() {
         </a>
 
 
+        <a
+          href='/eis/tele'
+          target="_blank" rel="noopener noreferrer"
+          className="px-6 py-2 "
+        >
+
+          <div className='grid grid-cols-1'>
+            <div className='flex flex-col items-center justify-center pb-4'>
+
+              <Image
+                src="/eis/tele.png"
+                alt="logo9"
+                width={120}
+                height={120}
+              />
+
+              <h1 className="text-lg font-bold mt-2">Telemedicine</h1>
+
+            </div>
+
+
+
+          </div>
+        </a>
+
+
+
 
 
       </div>

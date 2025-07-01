@@ -56,7 +56,12 @@ function Home() {
                 React.createElement("div", { className: 'grid grid-cols-1' },
                     React.createElement("div", { className: 'flex flex-col items-center justify-center pb-4' },
                         React.createElement(image_1["default"], { src: "/eis/bhz.png", alt: "logo8", width: 120, height: 120 }),
-                        React.createElement("h1", { className: "text-lg font-bold mt-2" }, "BHZ"))))),
+                        React.createElement("h1", { className: "text-lg font-bold mt-2" }, "BHZ")))),
+            React.createElement("a", { href: '/eis/tele', target: "_blank", rel: "noopener noreferrer", className: "px-6 py-2 " },
+                React.createElement("div", { className: 'grid grid-cols-1' },
+                    React.createElement("div", { className: 'flex flex-col items-center justify-center pb-4' },
+                        React.createElement(image_1["default"], { src: "/eis/tele.png", alt: "logo9", width: 120, height: 120 }),
+                        React.createElement("h1", { className: "text-lg font-bold mt-2" }, "Telemedicine"))))),
         React.createElement("br", null),
         React.createElement("br", null)));
 }
