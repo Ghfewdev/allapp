@@ -286,7 +286,30 @@ export default function Home() {
         </a>
 
 
+<a
+          href={"https://lookerstudio.google.com/u/0/reporting/f163109b-c5e7-4111-aad2-0fed57112358/page/p_75ygrzurvd"}
+          target="_blank" rel="noopener noreferrer"
+          className="px-6 py-2 "
+        >
 
+          <div className='grid grid-cols-1'>
+            <div className='flex flex-col items-center justify-center pb-4'>
+
+              <Image
+                src="/eis/cars.png"
+                alt="logo10"
+                width={120}
+                height={120}
+              />
+
+              <h1 className="text-lg font-bold mt-2">รถรับส่งคนพิการ-สูงอายุ</h1>
+
+            </div>
+
+
+
+          </div>
+        </a>
 
 
       </div>

@@ -61,7 +61,12 @@ function Home() {
                 React.createElement("div", { className: 'grid grid-cols-1' },
                     React.createElement("div", { className: 'flex flex-col items-center justify-center pb-4' },
                         React.createElement(image_1["default"], { src: "/eis/tele.png", alt: "logo9", width: 120, height: 120 }),
-                        React.createElement("h1", { className: "text-lg font-bold mt-2" }, "Telemedicine"))))),
+                        React.createElement("h1", { className: "text-lg font-bold mt-2" }, "Telemedicine")))),
+            React.createElement("a", { href: "https://lookerstudio.google.com/u/0/reporting/f163109b-c5e7-4111-aad2-0fed57112358/page/p_75ygrzurvd", target: "_blank", rel: "noopener noreferrer", className: "px-6 py-2 " },
+                React.createElement("div", { className: 'grid grid-cols-1' },
+                    React.createElement("div", { className: 'flex flex-col items-center justify-center pb-4' },
+                        React.createElement(image_1["default"], { src: "/eis/cars.png", alt: "logo10", width: 120, height: 120 }),
+                        React.createElement("h1", { className: "text-lg font-bold mt-2" }, "\u0E23\u0E16\u0E23\u0E31\u0E1A\u0E2A\u0E48\u0E07\u0E04\u0E19\u0E1E\u0E34\u0E01\u0E32\u0E23-\u0E2A\u0E39\u0E07\u0E2D\u0E32\u0E22\u0E38"))))),
         React.createElement("br", null),
         React.createElement("br", null)));
 }
