@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import { text } from 'stream/consumers'
 
 
 export default function Home() {
@@ -293,7 +294,7 @@ export default function Home() {
         >
 
           <div className='grid grid-cols-1'>
-            <div className='flex flex-col items-center justify-center pb-4'>
+            <div className='flex flex-col items-center justify-center pb-4 '>
 
               <Image
                 src="/eis/cars.png"
@@ -302,7 +303,7 @@ export default function Home() {
                 height={120}
               />
 
-              <h1 className="text-lg font-bold mt-2">รถรับส่งคนพิการ-สูงอายุ</h1>
+              <h1 className="text-lg font-bold mt- text-center">รถรับส่งคนพิการ สูงอายุ</h1>
 
             </div>
 
