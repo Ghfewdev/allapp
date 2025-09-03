@@ -303,7 +303,7 @@ export default function Home() {
                 height={120}
               />
 
-              <h1 className="text-lg font-bold mt- text-center">รถรับส่งคนพิการ สูงอายุ</h1>
+              <h1 className="text-lg font-bold text-center">รถรับส่งคนพิการ สูงอายุ</h1>
 
             </div>
 
