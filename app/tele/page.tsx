@@ -9,7 +9,7 @@ export default function tele() {
       <br />
       <br />
       <Image
-        src="/eis/teledash.jpg"
+        src="/eis/teledash1.jpg"
         alt="logo10"
         width={1200}
         height={1200}
